@@ -1,0 +1,352 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  -webkit-animation-name: anim-color;
+  -moz-animation-name: anim-color;
+  -o-animation-name: anim-color;
+  animation-name: anim-color;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  -moz-animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  -o-animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  animation-timing-function: cubic-bezier(.42,0,.21,1.02);
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
+  animation-direction: reverse;
+  -webkit-animation: anim-color 2s easy 1s infinity reverse;
+  -moz-animation: anim-color 2s easy 1s infinity reverse;
+  -o-animation: anim-color 2s easy 1s infinity reverse;
+  animation: anim-color 2s easy 1s infinity reverse;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anim-color {
+  0% {
+    background-color: gray;
+    margin-left: 0;
+  }
+
+  to {
+    background-color: purple;
+    margin-left: 400px;
+  }
+}
+@font-face {
+  font-family: 'P22 Underground CY Pro';
+  src: url("P22UndergroundCYPro-Medium.eot");
+  src: url("P22UndergroundCYPro-Medium.eot?#iefix") format('embedded-opentype'),url("P22UndergroundCYPro-Medium.woff2") format('woff2'),url("P22UndergroundCYPro-Medium.woff") format('woff'),url("P22UndergroundCYPro-Medium.ttf") format('truetype'),url("P22UndergroundCYPro-Medium.svg#P22UndergroundCYPro-Medium") format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  height: 75rem;
+  background-image: url("../img/header-fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-top {
+  margin-top: 5rem;
+}
+
+.header-logo_text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2rem;
+}
+
+.header-logo span {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.header-call .btn-call,
+.header-logo p {
+  font-size: 1.3rem;
+  font-family: "P22 Underground CY Pro";
+  color: #d5d5d5;
+}
+
+.header-logo img {
+  margin-bottom: 2rem;
+}
+
+.header-call .btn-call {
+  display: inline-block;
+  border-width: 1px;
+  border-color: #fff;
+  border-style: solid;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: #eaeae9;
+  width: 16rem;
+  height: 5rem;
+  margin-bottom: 2rem;
+  outline: 0;
+  margin-right: 2rem;
+}
+
+.header-call span,
+.header-logo span,
+.header-offer {
+  font-family: "P22 Underground CY Pro";
+  font-weight: 700;
+}
+
+.header-call span {
+  display: inline-block;
+  font-size: 2.3rem;
+  color: #fff;
+}
+
+.header-offer {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 3.7rem;
+  color: #ff3;
+  text-transform: uppercase;
+}
+
+.header-bottom {
+  margin-top: 6rem;
+}
+
+.header-ul {
+  font-size: 2rem;
+  font-family: "P22 Underground CY Pro";
+  color: #fff;
+  margin-top: 16rem;
+}
+
+.header-ul li {
+  list-style-type: none;
+}
+
+.header-form {
+  height: 41.5rem;
+  background-color: #fff;
+  text-align: center;
+  width: 40rem;
+}
+
+.header-form .form-text {
+  margin: auto;
+  width: 30rem;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: "P22 Underground CY Pro";
+  color: #333;
+}
+
+.header-form .input-name {
+  margin: auto;
+  margin-bottom: 1rem;
+  border-width: 1px;
+  border-color: #333;
+  border-style: solid;
+  border-radius: 4px;
+  width: 32rem;
+  height: 6rem;
+}
+
+.header-form .input-name input,
+.header-form .input-tel input {
+  width: 20rem;
+  padding-left: 3rem;
+  margin-top: 1.2rem;
+  border: 0;
+  font-size: 1.5rem;
+  font-family: "P22 Underground CY Pro";
+  outline: 0;
+}
+
+.header-form .box-name {
+  display: inline-block;
+  padding-top: 1.9rem;
+  margin-left: -6rem;
+  border-radius: 4px 0 0 4px;
+  width: 6rem;
+  height: 5.9rem;
+  background-color: #333;
+}
+
+.header-form .box-name img,
+.header-form .box-tel img {
+  vertical-align: middle;
+}
+
+.header-form .input-tel {
+  margin: auto;
+  margin-bottom: 1rem;
+  border-width: 1px;
+  border-color: #333;
+  border-style: solid;
+  border-radius: 4px;
+  width: 32rem;
+  height: 6rem;
+}
+
+.header-form .box-tel {
+  display: inline-block;
+  padding-top: 1.9rem;
+  margin-left: -6rem;
+  border-radius: 4px 0 0 4px;
+  width: 6rem;
+  height: 5.9rem;
+  background-color: #333;
+}
+
+.header-form .form-btn,
+.line {
+  font-family: "P22 Underground CY Pro";
+  color: #333;
+}
+
+.header-form .form-btn {
+  display: inline-block;
+  outline: 0;
+  width: 32rem;
+  height: 5.6rem;
+  background-color: #ff3;
+  border: 0;
+  box-shadow: 0 5px 0 #990;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.header-money {
+  text-align: center;
+  margin-top: -8rem;
+}
+
+.line {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.line .plus {
+  margin-top: 5rem;
+}
+
+.line .plus span {
+  margin-top: 2rem;
+  display: block;
+}
+
+@media (max-width:450px) {
+  html {
+    font-size: 6.3px;
+  }
+
+  .header-call,
+  .header-logo {
+    text-align: center;
+  }
+
+  .header-offer {
+    font-size: 2.3rem;
+  }
+
+  .header-ul {
+    margin-top: .1rem;
+    margin-bottom: 12rem;
+    font-size: 2rem;
+  }
+
+  .header-ul ul li {
+    margin-bottom: 2rem;
+  }
+
+  .header-form,
+  .header-ul {
+    margin: auto;
+  }
+
+  .header-money {
+    display: none;
+  }
+}
+
+@media (min-width:450px) and (max-width:750px) {
+  .header-call,
+  .header-logo {
+    text-align: center;
+  }
+
+  .header-offer {
+    font-size: 2rem;
+  }
+
+  .header-ul {
+    margin-top: .1rem;
+    margin-bottom: 12rem;
+    font-size: 1.7rem;
+  }
+
+  .header-ul ul li {
+    margin-bottom: 2rem;
+  }
+
+  .header-form,
+  .header-ul {
+    margin: auto;
+  }
+
+  .header-money {
+    display: none;
+  }
+}
+
+@media (min-width:750px) and (max-width:1024px) {
+  .header-call,
+  .header-logo {
+    text-align: center;
+  }
+
+  .header-offer {
+    font-size: 3rem;
+  }
+
+  .header-ul {
+    margin-top: .1rem;
+    margin-bottom: 12rem;
+    font-size: 2rem;
+  }
+
+  .header-ul ul li {
+    margin-bottom: 2rem;
+  }
+
+  .header-form,
+  .header-ul {
+    margin: auto;
+  }
+
+  .header-money {
+    display: none;
+  }
+}
